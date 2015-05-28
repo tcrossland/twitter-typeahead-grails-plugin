@@ -341,7 +341,7 @@
     }();
     var Transport = function() {
         "use strict";
-        var pendingRequestsCount = 0, pendingRequests = {}, maxPendingRequests = 6, sharedCache = new LruCache(10);
+        var pendingRequestsCount = 0, pendingRequests = {}, maxPendingRequests = 12, sharedCache = new LruCache(10);
         function Transport(o) {
             o = o || {};
             this.cancelled = false;
